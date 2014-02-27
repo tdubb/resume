@@ -7,6 +7,9 @@
   border-color: black;
   border-width: 1px;
 }*/
+body {
+  /*color: dimgray;*/
+}
 
 a {
   color: #b02039;
@@ -102,8 +105,8 @@ a {
 
 hr {
      border: none;
-    height: 2px;
+    height: 1px;
     /* Set the hr color */
-    color: #333; //old IE
-    background-color: #333; //Modern Browsers
+    color: lightgray; //old IE
+    background-color: lightgray; //Modern Browsers
 }
