@@ -8,19 +8,28 @@
   border-width: 1px;
 }*/
 
+a {
+  color: #b02039;
+}
+
 .border {
   border-style: solid;
   border-color: black;
   border-width: 1px;
 }
 
-.top
+.top 
 {
   background-image:url('red5.jpg');
   background-repeat:repeat-x;
   font-family:"Times New Roman", Times, serif;
   color: #FFF8E7;
 /*  background-size:110% 100%;*/
+}
+
+.top a {
+  font-family:"Times New Roman", Times, serif;
+  color: #FFF8E7; 
 }
 .top-bar { 
   height: 70px;
