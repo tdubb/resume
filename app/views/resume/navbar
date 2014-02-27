@@ -1,0 +1,33 @@
+<div class="sticky">
+  <nav class="top-bar" data-topbar>
+    <!-- Title -->
+    <ul class="title-area">
+      <li class="name"><h1><a href="#">Work</a></h1></li>
+
+      <!-- Mobile Menu Toggle -->
+      <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+    </ul>
+
+    <!-- Top Bar Section -->
+    <section class="top-bar-section">
+
+      <!-- Top Bar Left Nav Elements -->
+      <ul class="left">
+
+        Search | has-form wrapper
+        <li class="has-form">
+          <div class="row collapse">
+            <div class="large-8 small-9 columns">
+              <input placeholder="Find Stuff" type="text">
+            </div>
+            <div class="large-4 small-3 columns">
+              <a href="#" class="alert button expand">Search</a>
+            </div>
+          </div>
+        </li>  
+
+      </ul>
+
+    </section>
+  </nav>
+</div>

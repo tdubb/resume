@@ -1,0 +1,96 @@
+// Place all the styles related to the resume controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/** {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}*/
+
+.border {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+.top
+{
+  background-image:url('red5.jpg');
+  background-repeat:repeat-x;
+  font-family:"Times New Roman", Times, serif;
+  color: #FFF8E7;
+/*  background-size:110% 100%;*/
+}
+.top-bar { 
+  height: 70px;
+  vertical-align: center; 
+}
+
+#ty { 
+  background-image:url('red5.jpg');
+  background-repeat:repeat-x;
+}
+
+#go {
+  font-size: 20px;
+  display: table;
+  margin: 0 auto;
+}
+
+
+.work {
+  background-color: white;
+  text-align: center;
+  /*font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;*/
+  /*font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;*/
+  /*font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;*/
+  font-family:"Times New Roman", Times, serif;
+}
+
+.tag {
+  font-family:"Times New Roman", Times, serif;
+  text-align: left;
+  color: #b02039;
+}
+
+.accent {
+  color: #b02039;
+}
+
+#title {
+  /*font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;*/
+  font-family:"Times New Roman", Times, serif;
+  text-align: center;
+  margin-left: 31px;
+  color: #FFF8E7;
+}
+
+#section {
+  color: #b02039;
+}
+
+.paragraph {
+ /* text-align: left;*/
+}
+
+.connect2good {
+  width: 100%;
+  height: auto;
+}
+
+.weightable img {
+  height: 400px;
+}
+
+.weight {
+    margin-left: 10%;
+}
+
+hr {
+     border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: #333; //old IE
+    background-color: #333; //Modern Browsers
+}
