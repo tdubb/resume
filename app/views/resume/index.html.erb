@@ -7,13 +7,13 @@
        <!--  <div class="small-12 small-centered medium-12 medium-centered large-12 large-centered columns"> -->
           <ul class="inline-list"  id="go">
             <li >
-               Portfolio
+               <%= link_to "Portfolio", :anchor => "portfolio" %>
             </li>
             <li >
-               About Me
+               <%= link_to "About Me", :anchor => "aboutMe" %>
             </li>
-            <li >
-               Contact 
+            <li>
+               <%= link_to "Contact", :anchor => "contact" %> 
             </li>
           </ul>
       <!--   </div> -->
@@ -22,7 +22,7 @@
     </div>
   </div>
 </div>
-<br>
+<br id="portfolio">
 
 <div class="row work">
   <hr>
@@ -215,7 +215,7 @@
   <h3 class="work"> Learning Ruby on my own to the MakerSquare program.</h3>
 </div>
 <hr>
-<br>
+<br id="aboutMe">
 <div class="row">
   <h1 class="accent" id="section">Tyler J Wasden</h1>
    <!-- Main Blog Content -->
@@ -242,3 +242,13 @@
 
      </article>
   <!-- Second Band (Image Left with Text) -->
+</div>
+</div>
+<hr id="contact">
+<div class="small-12 small-centered large-12 large-centered columns">
+  <h3><strong class="tag pull left">Contact</strong></h3>
+  <br>
+  <br>
+  <h3 class="work"> If you think I would be a good fit for your company get in touch.</h3>
+</div>
+<hr>
