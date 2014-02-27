@@ -19,7 +19,7 @@ test:
   timeout: 5000
 
 production:
-  adapter: postresql
-  database: resume_production
+  adapter: post
+  database: db/production.sqlite3
   pool: 5
   timeout: 5000
