@@ -8,8 +8,16 @@
   border-width: 1px;
 }*/
 body {
-  /*color: dimgray;*/
+  @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+    margin-left: 20px;
+    margin-right: 20px;
+    .top {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
 }
+
 
 a {
   color: #b02039;
@@ -50,6 +58,9 @@ a {
 #ty { 
   background-image:url('red5.jpg');
   background-repeat:repeat-x;
+  @media only screen and (max-width: 25em) { 
+    margin-right: -10px;
+  }
 }
 
 #go {
