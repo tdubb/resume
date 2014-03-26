@@ -34,7 +34,7 @@
   <br>
   <br>
   <br>
-  <h3 class="work"> This site represents my transition from aspiring programmer to full stack developer showcasing the skills I acquired at the <%= link_to "MakerSquare", "http://www.themakersquare.com/", :target => "_blank" %>. I developed the following 3 projects during the bootcamp, each project section has a list of the technologies implemented and the projects are listed in reverse chronological order.</h3>
+  <h3 class="work"> This site represents my transition from aspiring programmer to full stack developer showcasing the skills I acquired at the <%= link_to "MakerSquare", "http://www.themakersquare.com/", :target => "_blank" %>. I developed the following 3 projects during the bootcamp. Project descriptions include links to specific code examples, list technologies implemented and are in reverse chronological order .</h3>
 </div>
 <hr>
 <br>
@@ -43,8 +43,8 @@
 <div class="row">
   <div class="small-10 small-centered large-4 large-uncentered columns">
     <br>
-    <div class="border">
-      <a href="assets/c2g.png" target="_blank"><img src="assets/c2g.png"></a>
+    <div>
+      <a href="assets/c2g.png" target="_blank"><img class="border lower" src="assets/c2g.png"></a>
       <br>
       <br>
     </div>
@@ -57,7 +57,7 @@
         <p><%= link_to "Connect 2 Good", "http://www.connect2good.com/", :target => "_blank" %> divides users into 3 categories; donors, organization owners and site admin.  Each category has access to different pages and  some pages change dynamically based on their status. I was instrumental in planning and setting up the back end functionality so that the site was simple yet powerful for all three user categories. </p>
       </div>
       <div class="small-10 small-centered large-6 large-uncentered columns">
-        <p>After setting up the back end I focused on using JQuery to make the dashboards as convenient and dynamic as possible. Providing pertinent information to the organization owners and allowing them to create, activate, delete needs as well as allowing them to manage their offers without having to wait for a page refresh. </p>
+        <p>After setting up the back end I focused on using JQuery to make the dashboards as convenient and dynamic as possible. Providing pertinent information to the organization owners and allowing them to <%= link_to "create", "https://github.com/tdubb/mks-final-project/blob/master/app/views/needs/create.js.erb", :target => "_blank" %>, <%= link_to "activate", "https://github.com/tdubb/mks-final-project/blob/master/app/views/organizations/_need.html.haml", :target => "_blank" %>, <%= link_to "delete", "https://github.com/tdubb/mks-final-project/blob/master/app/views/needs/destroy.js.erb", :target => "_blank" %> needs as well as allowing them to manage their offers without having to wait for a page refresh. </p>
       </div>
     </div>
   </div>
@@ -67,9 +67,9 @@
     <h4>Working With The Client</h4>
     <p>Connect 2 Good is the work of a select group of MakerSquare students. Myself and my two teammates worked closely with the client to see that we created an intuitive user experience and that the site fulfilled its mission. We created user stories and helped narrow the functionality to it's essence.  Then we created a list of what was included in an MVP and a list of other features that were stretch goals. We are excited to have taken this project from concept to it's official launch on March 8th at SXSW. The most recent addition I have made is the city filter so that Connect 2 Good will benefit not only Austin, Texas but other cities as well.</p>
   </div>
-  <div class="small-10 small-centered large-4 large-uncentered columns border">
+  <div class="small-10 small-centered large-4 large-uncentered columns">
     <br>
-    <a href="assets/c2gZ.png" target="_blank"><img src="assets/c2gZ.png"></a>
+    <a href="assets/c2gZ.png" target="_blank"><img class="border low" src="assets/c2gZ.png"></a>
     <br>
     <br>
   </div>
@@ -82,18 +82,18 @@
 <br>
 <h1 class="accent" id="section">Weightable</h1>
 <h3>
-<%= link_to "Github Repo", "https://github.com/tdubb/Weightable", :target => "_blank" %></h3>
+<%= link_to "Github Repo", "https://github.com/tdubb/Weightable", :target => "_blank" %></h3><br>
 <div class="row">
   <div class="small-10 small-centered large-6 large-uncentered columns">
-     <a href="assets/weightable1.png" target="_blank"><img src="assets/weightable1.png"></a>
+     <a href="assets/weightable1.png" target="_blank"><img class = "border" src="assets/weightable1.png"></a>
     <br>
     <br>
     <br>
-    <a href="assets/weightable3.png" target="_blank"><img src="assets/weightable3.png"></a>
+    <a href="assets/weightable3.png" target="_blank"><img class = "border" src="assets/weightable3.png"></a>
   </div>
     <div class="small-10 small-centered large-6 large-uncentered columns">
      <h4>A Long Weekend</h4>
-     <p>Weightable was an optional project to do over the Christmas break. I created this site in 4 days with minor contributions from a classmate. This site is the response to the challenge to make an app that allowed a user to create a profile and to record their weight once daily and upload a picture along with their daily weight. This site allows for one weight and picture to be recorded each day that can be updated as many times as desired throughout the day but becomes immutable at the end of the day. The user can set a goal and a deadline that can updated at any time. The 'client' also wanted to be able to support their friends as they worked towards their goals. There is a self referencing user table that allows for friendship relationships to be created. Friends can visit each others profiles and leave comments of support. 
+     <p>Weightable was an optional project to do over the Christmas break. I created this site in 4 days with minor contributions from a classmate. This site is the response to the challenge to make an app that allowed a user to create a profile and to <%= link_to "record their weight", "https://github.com/tdubb/Weightable/blob/master/app/models/weight.rb", :target => "_blank" %> <%= link_to "once daily", "https://github.com/tdubb/Weightable/blob/master/app/controllers/weights_controller.rb", :target => "_blank" %> and upload a picture along with their daily weight. This site allows for one weight and picture to be recorded each day that can be updated as many times as desired throughout the day but becomes immutable at the end of the day. The user can set a goal and a deadline that can updated at any time. The 'client' also wanted to be able to support their friends as they worked towards their goals. There is a self referencing <%= link_to "user table", "https://github.com/tdubb/Weightable/blob/master/app/models/user.rb", :target => "_blank" %> that allows for friendship relationships to be created. Friends can visit each others profiles and leave comments of support. 
      </p>
     </div>
     <h4>Technologies</h4>
@@ -125,7 +125,7 @@
         Technologies interacting
       </h4>
       <p>
-        For our website to function we first use the gem Geocoder to get the user's zip code if it isn't inputed in the zip code field.  Then we use the zipcode along with Nokogiri to scrape google movies for all the movies playing in that area.  Next we take the input from our search bar and run it against The Movie Database api and see if the actor is in any of the movies playing in the area.  At that point we display any positive returns with the locations being inserted into google maps static api to show the theater locations.
+        For our website to function we first use the gem <%= link_to "Geocoder", "https://github.com/tdubb/ActorShowtimes/blob/master/app/controllers/actors_controller.rb", :target => "_blank" %> to get the user's zip code if it isn't inputed in the zip code field.  Then we use the zipcode along with  <%= link_to "Nokogiri to scrape google movies", "https://github.com/tdubb/ActorShowtimes/blob/021cbaa09e4a2795d19b0295a05ff32e15e63051/app/controllers/scraper.rb", :target => "_blank" %> for all the movies playing in that area.  Next we take the input from our search bar and run it against The Movie Database api and see if the actor is in any of the movies playing in the area.  At that point we display any positive returns with the locations being inserted into <%= link_to "google maps static api", "https://github.com/tdubb/ActorShowtimes/blob/master/app/views/actors/show.html.erb", :target => "_blank" %> to show the theater locations.
       </p>
       <h4>
         Technologies used
